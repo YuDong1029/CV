@@ -1,0 +1,213 @@
+/*默认样式清除*/
+body,ul,ol,p,h2,h3,dl,dd{margin:0;padding:0;}
+a{-webkit-tap-highlight-color:rgba(255,0,0,0);text-decoration: none;}
+img{vertical-align: top;}
+input{-webkit-appearance:none;padding:0;margin:0;}
+body *{-webkit-text-size-adjust:none;}
+li{list-style:none;}
+.clearFix{zoom:1;}
+.clearFix:after{display: block;content:"";clear:both;}
+body{margin:0;overflow:hidden;position:relative;}
+/*头部*/
+#header{height:1.825rem;background:#fe5400;overflow:hidden;position:relative;z-index:2;}
+.logo{float:left;width:1.85rem;height:1.825rem;font-size:0;background:url(../img/tao.jpg) no-repeat 0.225rem 0.4rem;background-size: 1.35rem 1rem;overflow:hidden;}
+.input_text{display:block;margin:0.275rem 0.325rem 0 1.85rem;height:1.25rem;text-align:center;border-radius:0.2rem;background-color:#b52600;text-align:center;}
+.input_text .tuBiao{display:inline-block;width:0.675rem;height:0.675rem;background: url(../img/sou.png) no-repeat;background-size:0.675rem 0.675rem;}
+.input_text .text{display:inline-block;font-size:0.6rem;line-height:1.25rem;text-align:center;color:#fff;}
+/*可选关闭*/
+.guanBi{display:none;height:2.1rem;background-color:#ff5000;position:relative;box-sizing:border-box;}
+.guanBi .divL{position:absolute;left:0;top:0;height:2.1rem;background-color:#5f646e;}
+.guanBi .guan{float:left;width:1.85rem;height:2.1rem;background:url(../img/guan.jpg) no-repeat 0.425rem 0.625rem;background-size:0.85rem 0.85rem;overflow:hidden;}
+.guanBi .tu{float:left;width:2.1rem;height:2.1rem;background:url(../img/guan_tao.jpg) no-repeat 0.15rem 0.3rem;background-size:1.5rem 1.5rem;overflow:hidden;}
+.guanBi .text{font-size:0.6rem;line-height:2.1rem;color:#fff;}
+.guanBi .divR{position:absolute;right:0;top:0;padding:0 0.45rem;font-size:0.65rem;line-height:2.1rem;color:#fff;}
+/*共有*/
+.yuan_xuanZe li{float:left;margin:0 0.15rem;}
+.yuan_xuanZe li a{display:block;width:0.35rem;height:0.35rem;background:url(../img/1.png) no-repeat;background-size:0.35rem 0.35rem;overflow:hidden;}
+.yuan_xuanZe li .active,.yuan_xuanZe li a:hover{display:block;width:0.35rem;height:0.35rem;background:url(../img/2.png) no-repeat;background-size:0.35rem 0.35rem;overflow:hidden;}
+/*内容*/
+.wrap{background-color:#eee;position:absolute;left:0;top:0;;width:100%;height:100%;overflow:hidden;z-index:1;}
+.wrap>*:nth-child(1){padding-top:1.825rem;padding-bottom:2.1rem;}
+/*第一块 导航大图*/
+.div1{width:16rem;height:5rem;margin:0 auto;position:relative;}
+.div1 img{display:block;width:16rem;height:5rem;}
+.div1 .yuan_xuanZe{position: absolute;right:0;bottom:0.45rem;}
+/*第二块 导航图标*/
+.div2{width:16rem;background-color:#fff;margin:0 auto 0.5rem;}
+.div2 a{color:#666;font:0.55rem/0.95rem "宋体";}
+.div2 ul{width:15.4rem;background-color:#fff;padding:0.4rem 0.3rem 0;}
+.div2 li{float:left;width:2.625rem;height:2.875rem;padding:0.125rem 0.6rem 0.25rem 0.625rem;}
+.div2 .tuBiao{display:block;width:2.625rem;height:1.925rem;}
+.div2 .text{display:block;text-align:center;}
+.tianMao .tuBiao{background:url(../img/tianMao.jpg) no-repeat 0.35rem 0;background-size:1.925rem 1.925rem;overflow:hidden;}
+.juHuaSuan .tuBiao{background:url(../img/ju.jpg) no-repeat 0.35rem 0;background-size:1.925rem 1.925rem;overflow:hidden;}
+.taoShengHuo .tuBiao{background:url(../img/taoShengHuo.jpg) no-repeat 0.35rem 0;background-size:1.925rem 1.925rem;overflow:hidden;}
+.taoDianDian .tuBiao{background:url(../img/taoDianDian.jpg) no-repeat 0.35rem 0;background-size:1.925rem 1.925rem;overflow:hidden;}
+.chongZhi .tuBiao{background:url(../img/chongZhi.jpg) no-repeat 0.35rem 0;background-size:1.925rem 1.925rem;overflow:hidden;}
+.livXing .tuBiao{background:url(../img/livXing.jpg) no-repeat 0.35rem 0;background-size:1.925rem 1.925rem;overflow:hidden;}
+.jinBi .tuBiao{background:url(../img/jinBi.jpg) no-repeat 0.35rem 0;background-size:1.925rem 1.925rem;overflow:hidden;}
+.fenLei .tuBiao{background:url(../img/fenLei.jpg) no-repeat 0.35rem 0;background-size:1.925rem 1.925rem;overflow:hidden;}
+.div2 .touTiao{border-top:1px solid #e8e8e8;height:1.5rem;}
+.div2 .touTiao_logo{float:left;width:3.375rem;height:0;padding-top:1.35rem;border-right:1px solid #e8e8e8;margin:0.15rem 0;background:url(../img/touTiao.jpg) no-repeat 0.5rem 0.375rem;background-size:2.5rem 0.725rem;overflow:hidden;}
+.div2 .reMen{float:left;width:1.6rem;height:0.75rem;margin:0.35rem 0 0 0.45rem;background-color:#fff;border:1px solid #d81421;border-radius:0.2rem;text-align:center;font-size:0.65rem;line-height:0.75rem;}
+.div2 .touTiao_text{font-size:0.7rem;padding-left:0.725rem;line-height:1.5rem;}
+/*第三块 淘抢购*/
+.div3{width:16rem;background-color:#fff;margin:0 auto 0.5rem;}
+.div3 .taoL{float:left;}
+.div3 .taoL img{width:6.3rem;height:7.675rem;border-right:1px solid #e8e8e8;}
+.div3 .taoR{float:left;width:9.6rem;height:7.675rem;}
+.div3 .taoR_top{float:left;width:9.6rem;height:3.075rem;border-bottom:1px solid #f3f3f3;background:url(../img/taoR_top.jpg) no-repeat;background-size:9.6rem 3.075rem;}
+.div3 .taoR_bottomL{float:left;width:4.75rem;height:4.475rem;border-right:1px solid #e8e8e8;background:url(../img/taoR_bottomL.jpg) no-repeat;background-size:4.75rem 4.575rem;}
+.div3 .taoR_bottomR{float:left;width:4.8rem;height:4.475rem;background:url(../img/taoR_bottomR.jpg) no-repeat;background-size:4.8rem 4.575rem;}
+/*共有的*/
+.div4{width:16rem;background-color:#fff;margin:0 auto 0.5rem;border-top:0.05rem solid #ff5000;}
+.div4 .top{height:4.15rem;border-bottom:1px solid #e8e8e8;}
+.div4 .topL{float:left;}
+.div4 .topL h2{width:3.5rem;height:0;padding-top:0.95rem;font-size:0;background:url(../img/chao_shiHui.jpg) no-repeat;background-size:3.5rem 0.95rem;}
+.div4 .topL dl{width:5.8rem;padding-left:0.6rem;}
+.div4 dt a{display:inline-block;padding-top:0.275rem;font-size:0.65rem;height:0.7rem;line-height:0.7rem;color:#595959;font-weight:bold;}
+.div4 dd a{display:block;height:0.85rem;font-size:0.55rem;line-height:0.85rem;color:#ff3600;}
+.div4 .right_jianTou{float:right;width:0.65rem;height:0.65rem;background:url(../img/right_jianTou.jpg) no-repeat 0.175rem 0.1rem;background-size:0.3rem 0.475rem;}
+.div4 .yuanJiao{width:1.35rem;height:0.7rem;font-size:0.4rem;line-height:0.65rem;border:0.075rem solid #ff4615;border-radius: 0.25rem;text-align:center;}
+.div4 .topR{float:left;width:9.6rem;}
+.topR li{float:left;width:2rem;height:2.45rem;margin:0.875rem 0.6rem 0;}
+.topR li img{float:left;width:2rem;height:1.85rem;background-size:2rem 1.85rem;}
+.topR .text{float:left;width:2rem;height:0;padding-top:0.6rem;overflow:hidden;background-size:2rem 0.6rem;}
+.bottom li{float:left;height:5rem;}
+.bottom .li1{width:5.8rem;padding-left:0.6rem;}
+.bottom .li2{width:2.8rem;padding-left:0.3rem;border-left:1px solid #e8e8e8;}
+.bottom a{display:block;font-size:0.4rem;line-height:0.65rem;white-space: nowrap;}
+.bottom h3{color:#54636c;padding-top:0.35rem;}
+.bottom p{color:#ff7e5d;letter-spacing: -1px;padding-top:0.05rem;}
+/*第四块 超实惠*/
+.daPai_text{background:url(../img/feiChang.jpg) no-repeat;}
+.quanQiu_text{background:url(../img/jingXuan.jpg) no-repeat;}
+.liangFan_text{background:url(../img/chaoZhi.jpg) no-repeat;}
+.chaoBottom .chao_img1{width:3.925rem;height:3.125rem;padding:0.125rem 0 0 1.225rem;}
+.chaoBottom .chao_img2{width:1.975rem;height:2.825rem;padding:0.325rem 0 0 0.2rem;}
+.chaoBottom .chao_img3{width:2.5rem;height:2.15rem;padding:1.025rem 0 0 0.075rem;}
+.chaoBottom .chao_img4{width:1.85rem;height:2.85rem;padding:0.325rem 0 0 0.225rem;}
+/*第五块 好品质*/
+.div5{width:16rem;background-color:#fff;margin:0 auto 0.5rem;border-top:1px solid #7144ae;}
+.div5 .topL dl{width:4.925rem;padding-left:0.6rem;}
+.div5 .topL h2{width:3.5rem;height:0;padding-top:0.95rem;font-size:0;background:url(../img/hao_pinZhi.jpg) no-repeat;background-size:3.5rem 0.95rem;}
+.div5 .topL .right_jianTou{float:right;width:0.65rem;height:0.65rem;background:url(../img/right_jianTouZ.jpg) no-repeat 0.175rem 0.1rem;background-size:0.3rem 0.475rem;}
+.div5 .topL .yuanJiao{width:2rem;border:0.075rem solid #8646be;color:#8646be;}
+.div5 dt a{color:#4b4b4b;}
+.div5 dd a{color:#bfbfbf;}
+.div5 .tu_danPin{float:left;border-right:1px solid #e8e8e8;}
+.div5 .tu_danPin img{width:3rem;height:3.25rem;padding:0.725rem 0.43rem 0.175rem 0.45rem;}
+.div5 .topR{width:3.7rem;}
+.div5 .topR dl{width:3.125rem;padding:0.95rem 0 0 0.575rem;}
+.div5 .topR .right_jianTou{float:right;width:0.65rem;height:0.65rem;background:url(../img/right_jianTouH.jpg) no-repeat 0.175rem 0.1rem;background-size:0.3rem 0.475rem;}
+.div5 .topR .yuanJiao{width:1.45rem;border:0.075rem solid #e3444b;color:#e3444b;}
+.div5 .tu_zhongGuo{float:left;width:2.5rem;}
+.div5 .tu_zhongGuo img{width:2.5rem;height:2.75rem;padding-top:0.95rem;}
+.div5 .bottom li{width:2.7rem;padding-left:0.4rem;border-right:1px solid #e8e8e8;}
+.div5 .bottom .li5{border-right:none;}
+.div5 .bottom h3{color:#22333c;}
+.div5 .bottom p{color:#b2b2b2;}
+.haoBottom img{width:2.225rem;height:3.05rem;padding:0.15rem 0 0 0.075rem;}
+.haoBottom .quan_img5{width:2.25rem;}
+/*第六块 有特色*/
+.div6{width:16rem;background-color:#fff;margin:0 auto 0.5rem;border-top:1px solid #3ad298;}
+.div6 .topL h2{background:url(../img/teSe_bj.jpg) no-repeat;background-size:3.5rem 0.925rem;}
+.div6 .topL .right_jianTou{background:url(../img/right_jianTouL.jpg) no-repeat 0.175rem 0.1rem;background-size:0.3rem 0.475rem;}
+.div6 dt a{color:#484848;}
+.div6 dd a{color:#c1c1c1;}
+.div6 .topL .yuanJiao{width:2.3rem;border:0.075rem solid #41d7a8;color:#41d7a8;}
+.div6 .topR li{float:left;width:2rem;height:2.55rem;margin:0.75rem 0.6rem 0;}
+.div6 .topR img{float:left;width:2rem;height:1.95rem;}
+.siFa_text{background:url(../img/paiMai.jpg) no-repeat;}
+.xianShi_text{background:url(../img/xianShi_pai.jpg) no-repeat;}
+.quanMin_text{background:url(../img/qiangPai.jpg) no-repeat;}
+.teSeBottom .te_img1{width:3.925rem;height:2.675rem;padding:0.625rem 0 0 0.55rem;}
+.teSeBottom .te_img2{width:2.25rem;height:2.25rem;padding:0.95rem 0 0 0.075rem;}
+.teSeBottom .te_img3{width:1.4rem;height:2.25rem;padding:0.95rem 0 0 0.525rem;}
+.teSeBottom .te_img4{width:2.525rem;height:2.575rem;padding:0.625rem 0 0 0;}
+.teSeBottom p{color:#c1c1c1;}
+/*logo*/
+.guangGao_logo{width:16rem;height:3.2rem;margin:0 auto;}
+.guangGao_logo img{width:16rem;height:3.2rem;}
+.guangGao_logo2{width:16rem;height:3.225rem;margin:0 auto;}
+.guangGao_logo2 img{width:16rem;height:3.225rem;}
+/*第七块 热门市场*/
+.div7{width:16rem;background-color:#fff;margin:0 auto 0.5rem;}
+.div7 .r_bottom{border-top:1px solid #e8e8e8;border-bottom:1px solid #eee;}
+.div7 .r_bottom h3{display:block;font-size:0.6rem;line-height:0.7rem;color:#222;padding-top:0.625rem;}
+.div7 .r_bottom p{display:block;font-size:0.5rem;line-height:0.65rem;color:#9a9a9a;}
+.div7 .bottomL{float:left;width:7.975rem;border-right:1px solid #e8e8e8;}
+.div7 li{width:7.4rem;padding-left:0.575rem;border-bottom:1px solid #f3f3f3;}
+.div7 .list1 img{width:6.825rem;height:3.05rem;padding-top:0.775rem;}
+.div7 .list2 img{padding:0.4rem 0 0.45rem 0;}
+.div7 .list3 img{padding-bottom:0.3rem;}
+.div7 .list2 .nanZhuang{width:1.4rem;height:2rem;}
+.div7 .list2 .shouJi{width:1rem;height:2rem;}
+.div7 .list3 .shouJi{width:1.925rem;height:2.375rem;}
+.div7 .list3 .xieBao{width:2.25rem;height:2.375rem;}
+.div7 .bottomR{float:left;}
+/*共有*/
+.div7 h2{float:left;font-size:0.7rem;text-indent: 0.325rem;color:#232323;}
+.div7 .gengDuo{float:right;font-size:0.6rem;color:#666;}
+.div7 .top{height:1.5rem;line-height:1.5rem;border-left:0.25rem solid #ff4400;border-top:1px solid #d5d5d5;}
+.div7 .gengDuo span{float:right;width:0.625rem;height:0.625rem;margin:0.375rem 0.5rem 0 0.175rem;background: url(../img/gengDuo_tu.jpg) no-repeat;background-size:0.625rem 0.625rem;}
+.div7 .listL{float:left;width:3.325rem;padding-left:0.5rem;border-right:1px solid #e8e8e8;}
+.div7 .listR{float:left;padding-left:0.5rem;}
+/*第八块  每日好店*/
+.div8{width:16rem;background-color:#fff;margin:0 auto 0.5rem;position:relative;}
+.div8 .top{border-left:0.25rem solid #ff9b43;border-top:1px solid #eaeaea;}
+.div8 .m_bottom{border-top:1px solid #f3f3f3;width:15.4rem;padding:0.25rem 0.3rem 0.55rem;}
+.div8 li{padding-left:0;border:none;float:left;width:7.7rem;}
+.div8 .m_bottom .daTu{width:5rem;float:left;}
+.div8 .m_bottom .xiaoTu{width:2.5rem;float:left;}
+.div8 .m_bottom img{width:2.5rem;height:2.5rem;}
+.div8 .m_bottom .img1{width:5rem;height:5.1rem;}
+.div8 .m_bottom .img2{width:5rem;height:5.1rem;margin:0 0.1rem 0 0.1rem;}
+.div8 .m_bottom .img3{margin:0 0.1rem;}
+.div8 .m_bottom .img4{margin-top:0.1rem;}
+.div8 .m_bottom .img5{margin-left:0.1rem;}
+.div8 .m_bottom p{font-size:0.65rem;line-height:1.05rem;color:#363636;}
+.div8 .yuan_xuanZe{position: absolute;right:0;bottom:0.15rem;}
+.div8 .yuan_xuanZe li{width:0.35rem;height:0.35rem;}
+/*第九块 猜你喜欢*/
+.div9{width:16rem;background-color:#eee;margin:0 auto;}
+.div9 h2{text-align:center;font-size:0.55rem;color:#5f646e;font-weight:normal;line-height:1.45rem;}
+.div9 li{width:7.9rem;height:10.675rem;background-color:#fff;margin-bottom:0.2rem;}
+.div9 .li58{margin-bottom:0;}
+.div9 .listL{float:left;}
+.div9 .listR{float:right;}
+.div9 img{width:7.9rem;height:7.425rem;}
+.div9 .text{padding:0 0.5rem;}
+.div9 .teBie{width:6.45rem;padding:0 0.975rem 0 0.475rem;}
+.div9 .teText{color:#5d3299;font-size:0.85rem;font-weight:bold;line-height:1.725rem;border-bottom:0.05rem solid #eee;}
+.div9 .text1{color:#666;font-size:0.55rem;line-height:0.9rem;padding-top:0.275rem;}
+.div9 .teText2{line-height:0.95rem;padding-top:0;}
+.div9 .text2{color:#ff5000;font-size:0.6rem;line-height:1rem;padding-top:0.175rem;}
+/*第十块 买手挑*/
+.div10{width:16rem;background-color:#eee;margin:0 auto;}
+.div10 h2{text-align:center;font-size:0.6rem;color:#5f646e;font-weight:normal;line-height:1.4rem;}
+.div10 a{display:block;}
+.div10 img{width:14.9rem;height:4.1rem;margin: 0 0.55rem 0.45rem;}
+/*第十一块 登陆信息*/
+.div11{width:16rem;height:5.175rem;text-align:center;border-top:1px solid #3b3f48;background-color:#4e525e;margin:0 auto;position:relative;}
+.div11 ul{padding:0.9rem 0.4rem;}
+.div11 li{float:left;padding-right:0.375rem;}
+.div11 .li4{padding-right:0;}
+.div11 a{font-size:0.65rem;line-height:1.5rem;padding:0.425rem 0.8rem;border:0.05rem solid #42454d;border-radius: 0.3rem;color:#c3c6ca;}
+.div11 p{display:inline-block;height:0.85rem;color:#c3c6ca;font-size:0.55rem;line-height:0.85rem;padding-left:1.175rem;background:url(../img/f-tuBiao.jpg) no-repeat;background-size:0.85rem 0.85rem;}
+/*底部*/
+.footer{width:100%;height:2.1rem;border-top:1px solid #e7e7e7;background:#fff;overflow:hidden;position:absolute;left:0;bottom:0;z-index:2;}
+.footer li{float:left;width:20%;text-align:center;}
+.footer .tuB_bj{display:block;width:1.975rem;height:1.425rem;margin: 0 auto;}
+.footer .text{display:block;font-size:0.5rem;line-height:0.7rem;color:#70777c;text-align:center;}
+.footer .shouYe{background:url(../img/shouYe.jpg) no-repeat 0.475rem 0.4rem;background-size:1.05rem 1rem;}
+.footer .wuLiu{background:url(../img/wuLiu.jpg) no-repeat 0.475rem 0.4rem;background-size:1.05rem 1rem;}
+.footer .gouWu{background:url(../img/gouWu.jpg) no-repeat 0.475rem 0.4rem;background-size:1.05rem 1rem;}
+.footer .woDe{background:url(../img/woDe.jpg) no-repeat 0.475rem 0.4rem;background-size:1.05rem 1rem;}
+.footer .gengDuo{background:url(../img/gengDuo.jpg) no-repeat 0.475rem 0.4rem;background-size:1.05rem 1rem;}
+
+
+
+
+
+
