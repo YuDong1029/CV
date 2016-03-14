@@ -30,8 +30,29 @@ body{margin:0;overflow:hidden;position:relative;}
 .wrap>*:nth-child(1){padding-top:1.825rem;padding-bottom:2.1rem;}
 /*第一块 导航大图*/
 .div1{width:16rem;height:5rem;margin:0 auto;position:relative;}
-.div1 img{display:block;width:16rem;height:5rem;}
 .div1 .yuan_xuanZe{position: absolute;right:0;bottom:0.45rem;}
+#div1_img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#aImg {
+	width: 1000%;
+	position: absolute;
+	left:-16rem;
+	top:0;
+	transition: .5s;
+}
+#aImg a{
+	float: left;
+	width: 16rem;
+	height: 5rem;
+}
+#aImg img{
+	width: 16rem;
+	height: 5rem;
+}
 /*第二块 导航图标*/
 .div2{width:16rem;background-color:#fff;margin:0 auto 0.5rem;}
 .div2 a{color:#666;font:0.55rem/0.95rem "宋体";}
